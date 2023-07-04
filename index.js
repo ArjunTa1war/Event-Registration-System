@@ -138,7 +138,7 @@ app.post("/sendbroadcast",(req,res)=>{
 })
 
 app.post("/failure",(req,res)=>{
-    res.render("otppage");
+    res.redirect("/");
 })
 
 app.listen(3000,()=>{
